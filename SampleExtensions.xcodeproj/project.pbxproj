@@ -18,6 +18,7 @@
 		07BC8AF925CED10000BBEC86 /* SampleExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BC8AF825CED10000BBEC86 /* SampleExtended.swift */; };
 		07BC8AFE25CEDF4000BBEC86 /* Extension+sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BC8AFD25CEDF4000BBEC86 /* Extension+sample.swift */; };
 		07BC8B0325CEE09B00BBEC86 /* Extend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BC8B0225CEE09B00BBEC86 /* Extend.swift */; };
+		07BC8B8025D17D9500BBEC86 /* UIAlertController+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BC8B7F25D17D9400BBEC86 /* UIAlertController+Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		07BC8AF825CED10000BBEC86 /* SampleExtended.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleExtended.swift; sourceTree = "<group>"; };
 		07BC8AFD25CEDF4000BBEC86 /* Extension+sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+sample.swift"; sourceTree = "<group>"; };
 		07BC8B0225CEE09B00BBEC86 /* Extend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extend.swift; sourceTree = "<group>"; };
+		07BC8B7F25D17D9400BBEC86 /* UIAlertController+Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Helper.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				07BC8AF825CED10000BBEC86 /* SampleExtended.swift */,
 				07BC8AFD25CEDF4000BBEC86 /* Extension+sample.swift */,
 				07BC8B0225CEE09B00BBEC86 /* Extend.swift */,
+				07BC8B7F25D17D9400BBEC86 /* UIAlertController+Helper.swift */,
 			);
 			path = SampleExtensions;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07BC8ACA25CED0CF00BBEC86 /* ViewController.swift in Sources */,
+				07BC8B8025D17D9500BBEC86 /* UIAlertController+Helper.swift in Sources */,
 				07BC8AC625CED0CF00BBEC86 /* AppDelegate.swift in Sources */,
 				07BC8AF925CED10000BBEC86 /* SampleExtended.swift in Sources */,
 				07BC8AC825CED0CF00BBEC86 /* SceneDelegate.swift in Sources */,

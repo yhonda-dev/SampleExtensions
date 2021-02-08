@@ -70,6 +70,22 @@ class ViewController: UIViewController {
         print(UIViewController().sp.print())
 //        print(sp.test)
 //        print(sp.print())
+        
+//        let vc
+        
+        let alertType = SampleAlertType.typeA
+        
+        // 元々あるかのように使う
+        let alertA = UIAlertController(alertType, preferredStyle: .alert)
+        alertA.addAction()
+        alertA.addCancelAction()
+        present(alertA, animated: true, completion: nil)
+        
+        // extensionだとわかるように使う（spってのが「.ex」的な意味）
+        let alertB = UIAlertController.sp.create(alertType, preferredStyle: .alert)
+        alertB.sp.addAction()
+        alertB.sp.addCancelAction()
+        present(alertB, animated: true, completion: nil)
     }
 }
 
@@ -120,3 +136,4 @@ extension  UIColor.UIColorInStruct {
     
     static var testColor: UIColor { return #colorLiteral(red: 1.0, green: 1.0, blue: 1.0, alpha: 1.0) }
 }
+

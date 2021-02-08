@@ -78,7 +78,16 @@ extension SampleExtension where ExtendedType == UIViewController {
     func print() -> String {
         return TestClass.print() + "on vc"
     }
+    
+    static var test: String {
+        return "Static TestClass for sp"
+    }
+    
+    static func print() -> String {
+        return "Static Func on TestClass for sp"
+    }
 }
+
 
 extension SOExtension where ExtendedType == UIColor {
     
@@ -109,3 +118,4 @@ extension SExtension where ExtendedType == String {
         return "s on s func"
     }
 }
+

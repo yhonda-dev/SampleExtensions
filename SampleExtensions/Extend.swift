@@ -15,5 +15,7 @@ extension String: SExtended {}
 extension UIColor: SampleObjectExtended {}
 extension UIColor: SOExtended {}
 
-extension UIViewController: SampleObjectExtended {}
-//extension UIViewController: SampleExtended {}
+//extension UIViewController: SampleObjectExtended {}
+extension UIViewController: SampleExtended {}
+
+extension UIAlertController: SampleExtended {}
